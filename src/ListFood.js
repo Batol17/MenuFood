@@ -1,0 +1,32 @@
+import img1 from './images/1.png';
+import img2 from './images/2.png';
+import img3 from './images/3.png';
+import img4 from './images/4.png';
+import img5 from './images/5.png';
+import img6 from './images/6.png';
+import img8 from './images/8.png';
+import img9 from './images/9.png';
+
+
+const ListFood=[{id:Math.round(),title:'وجبة الفطور',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'فطور',img: img1},
+    {id:Math.round(),title:'وجبة الغداء',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'غداء',img:img6},
+    {id:Math.round(),title:'وجبة العشاء',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'40$',category:'عشاء',img:img6},
+    {id:Math.round(),title:'وجبة الفطور',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'60$',category:'فطور',img:img9},
+    {id:Math.round(),title:'وجبة الفطور',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'فطور',img:img3},
+    {id:Math.round(),title:'وجبة الغداء',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'غداء',img:img1},
+    {id:Math.round(),title:'وجبة العشاء',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'عشاء',img:img2},
+    {id:Math.round(),title:'وجبة الفطور',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'فطور' ,img:img6}, 
+    {id:Math.round(),title:'وجبة الفطور',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'30$',category:'فطور',img:img9},
+    {id:Math.round(),title:'وجبة العشاء',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'عشاء',img:img3},
+    {id:Math.round(),title:'وجبة الغداء',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'غداء',img:img2},
+    {id:Math.round(),title:'وجبة الغداء',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'غداء',img:img5},
+    {id:Math.round(),title:'وجبة العشاء',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'عشاء',img:img1},
+    {id:Math.round(),title:'وجبة العشاء',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'عشاء',img:img3},
+    {id:Math.round(),title:'وجبة الغداء',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'غداء',img:img5},
+    {id:Math.round(),title:'وجبة الغداء',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'غداء',img:img3},
+    {id:Math.round(),title:'وجبة الفطور',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'فطور',img:img8},
+    {id:Math.round(),title:'وجبة الغداء',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'غداء',img:img4},
+    {id:Math.round(),title:'وجبة الفطور',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'فطور',img:img9},
+    {id:Math.round(),title:'وجبة ',disc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, soluta consequatur, odit saepe vitae deleniti, placeat et eaque asperiores sed unde optio cupiditate minus nesciunt id non! Dolore, iure laboriosam?',price:'20$',category:'سناك',img:img6},
+]
+export default ListFood
